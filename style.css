@@ -1,0 +1,87 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    font-size: 18px;
+}
+.wrapper{
+    width: 100%;
+    background-image: url(image/2021057004142.jpg);
+    border: 1px solid red;
+    padding: 20px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.header{
+    display: flex;
+}
+.logoImg{
+    border: 2px solid rgb(206, 138, 36);
+}
+
+.navul{
+display:flex ;
+width: 400px;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+}
+.navul a{
+    font-size: 30px;
+font-weight: bold;
+color: black;
+}
+.navulli{
+    border: 2px solid rgb(206, 138, 36);
+    padding: 5px 20px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+p{
+    text-indent: 40px;
+}
+.kart img{
+    width: 320px;
+    border: 2px solid rgb(206, 138, 36);
+}
+.kart{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+width: 200px;
+height: 50px;
+display: flex;
+}
+.logoImg{
+    width: 50px;
+}
+.Greece{
+    margin-left: auto;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+.nav{
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.footer{
+    margin: 30px 0;
+}
+.footerUl{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(206, 138, 36);
+    padding: 20px;
+}
+.footer a{
+    color: rgb(206, 138, 36);
+}
